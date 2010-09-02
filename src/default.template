@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{lang:}">
+  <head>
+    <title>{title: }</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="Your description goes here..." />
+    <meta name="keywords" content="your,keywords,goes,here" />
+    <meta name="author" content="Kiss Gergely" />
+    <meta name="generator" content="webgen - http://webgen.rubyforge.com/" />
+    <link href="{relocatable: default.css}" rel="stylesheet" type="text/css" />
+    <link href="{relocatable: css/layout.css}" rel="stylesheet" type="text/css" />
+    <link href="{relocatable: css/text.css}" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <!-- Main Page Container -->
+  <div class="page-container">
+    
+    <!-- A. HEADER -->      
+    <div class="header">
+      
+      <!-- A.1 HEADER TOP -->
+      <div class="header-top">
+        
+        <!-- Sitelogo -->
+        <a class="sitelogo" href="{relocatable: /}"></a>
+    
+        <!-- Languages -->
+        <div class="nav0">{langbar: }</div>      
+
+        <!-- Navigation Level 1 -->
+        <div class="nav1">
+          <ul>
+            <li>{link: index.html}</li>
+            <li>{link: about.html}</li>
+            <li>{link: contact.html}</li>
+          </ul>
+        </div>              
+      </div>
+      
+      <!-- A.2 HEADER MIDDLE -->
+      <div class="header-middle">    
+   
+        <!-- Site message -->
+        <div class="sitemessage">
+          <h1>VELÜNK &bull; CSAK &bull; NYERHET</h1>
+          <h2>Bla bla bla, bla? blabla blaa bla bla.</h2>
+          <h3><a href="#">&rsaquo;&rsaquo;&nbsp;Bővebben</a></h3>
+        </div>        
+      </div>
+      
+      <!-- A.3 HEADER BOTTOM -->
+      <div class="header-bottom">
+
+        <!-- Navigation Level 2 (Drop-down menus) -->
+        <div class="nav2">
+          
+          {menu: {min_levels: 2, max_levels: 2, show_current_subtree_only: true }}
+          
+        </div>
+    </div>
+    </div>
+
+    <!-- B. MAIN -->
+    <div class="main">
+ 
+      <!-- B.1 MAIN NAVIGATION -->
+      <% if context.node.acn.match(/^\/products/) %>
+        <div class="main-navigation">
+  
+          <!-- Navigation Level 3 -->
+          <h1 class="first">Termékeink</h1>
+  
+          <!-- Navigation with grid style -->
+          <div class="nav3-grid">
+            {menu: {start_level: 2, min_levels: 1, max_levels: 4 }}
+          </div>
+        </div>
+      <% end %>
+ 
+      <!-- B.2 MAIN CONTENT -->
+      <div class="main-content">
+        <br/>
+        
+        <!-- Pagetitle -->
+        <h1 class="pagetitle">{title: }</h1>
+        
+        <div class="column1-unit">
+          <webgen:block name="content" />
+          <% if context.content_node['sku'] %>
+            <p>{sku: }</p>
+          <% end %> 
+        </div>
+        <hr class="clear-contentunit" />  
+      </div>
+      
+      <!-- Images -->
+      <% if context.content_node['sku'] %> 
+        <br/>
+        <div class="main-subcontent">
+          <div class="subcontent-unit-border-blue">
+            <div class="round-border-topleft"></div><div class="round-border-topright"></div>
+            <h1 class="blue">Képek</h1>
+            <p class="center"><img class="center" src="{sku: }.jpg" /></p>
+          </div>
+        </div>
+      <% end %> 
+    </div>
+      
+    <!-- C. FOOTER AREA -->      
+
+    <div class="footer">
+      <p>Copyright &copy; 2010 Fero Kreatív Ltd. | All Rights Reserved |
+      <a href="http://validator.w3.org/check?uri=referer" title="Validate XHTML code">XHTML 1.0</a> | <a href="http://jigsaw.w3.org/css-validator/" title="Validate CSS code">CSS 2.0</a></p>
+      </p>
+    </div>
+    
+    </div>
+  </body>
+</html>
