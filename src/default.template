@@ -42,13 +42,8 @@
       
       <!-- A.2 HEADER MIDDLE -->
       <div class="header-middle">    
-   
-        <!-- Site message -->
-        <div class="sitemessage">
-          <h1>VELÜNK &bull; CSAK &bull; NYERHET</h1>
-          <h2>Bla bla bla, bla? blabla blaa bla bla.</h2>
-          <h3><a href="#">&rsaquo;&rsaquo;&nbsp;Bővebben</a></h3>
-        </div>        
+        <object type="application/x-shockwave-flash" data="{relocatable: img/banner_hu.swf}" style="width:900px; height:150px"> 
+        </object>
       </div>
       
       <!-- A.3 HEADER BOTTOM -->

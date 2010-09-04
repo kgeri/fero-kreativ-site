@@ -30,9 +30,9 @@ default_processing_pipeline:
 website.lang: hu
 
 ## Adding some extensions to the copy source handler.
-# patterns:
-#   Copy:
-#     add: [**/*.pdf, **/*.djvu]
+patterns:
+  Copy:
+    add: [**/*.pdf, **/*.swf]
 
 ## Language bar
 tag.langbar.separator: ' '
