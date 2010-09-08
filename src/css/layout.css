@@ -127,6 +127,8 @@ img {border: none; }
 .round-noborder-topleft {width:10px; height:10px; position:absolute; z-index:100; background:url(../img/bg_corner_topleft.gif) no-repeat; margin-top:0px; margin-left:0px;}
 .round-noborder-topright {width:10px; height:10px; position:absolute; z-index:100; background:url(../img/bg_corner_topright.gif) no-repeat; margin-top:0px; margin-left:175px;}
 
+.thumb {width: 100px; height: 100px;}
+
 /********************/
 /*  FOOTER SECTION  */
 /********************/

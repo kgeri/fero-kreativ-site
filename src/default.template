@@ -12,6 +12,9 @@
     <link href="{relocatable: default.css}" rel="stylesheet" type="text/css" />
     <link href="{relocatable: css/layout.css}" rel="stylesheet" type="text/css" />
     <link href="{relocatable: css/text.css}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="{relocatable: css/slimbox2.css}" type="text/css" media="screen" />
+    <script type="text/javascript" src="{relocatable: js/jquery-1.4.2.min.js}"></script>
+    <script type="text/javascript" src="{relocatable: js/slimbox2.js}"></script>
   </head>
   <body>
 
@@ -98,7 +101,11 @@
           <div class="subcontent-unit-border-blue">
             <div class="round-border-topleft"></div><div class="round-border-topright"></div>
             <h1 class="blue">Képek</h1>
-            <p class="center"><img class="center" src="{sku: }.jpg" /></p>
+            <p class="center">
+              <a href="{sku: }.jpg" rel="lightbox">
+                <img class="thumb" src="{sku: }.jpg" />
+              </a>
+            </p>
           </div>
         </div>
       <% end %> 
