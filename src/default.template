@@ -32,15 +32,6 @@
     
         <!-- Languages -->
         <div class="nav0">{langbar: }</div>      
-
-        <!-- Navigation Level 1 -->
-        <div class="nav1">
-          <ul>
-            <li>{link: index.html}</li>
-            <li>{link: about.html}</li>
-            <li>{link: contact.html}</li>
-          </ul>
-        </div>              
       </div>
       
       <!-- A.2 HEADER MIDDLE -->
