@@ -2,5 +2,34 @@
 title: Contacts
 in_menu: true
 ---
-<h1>Contacts!</h1>
-
+<table>
+  <tr>
+    <td colspan="2"><b>Fero-Kreativ Ltd.</b></td>
+  </tr>
+  <tr>
+    <td><b>Address</b></td>
+    <td>2144 Kerepes, Szabadság út 252.</td>
+  </tr>
+  <tr>
+    <td><b>Telephone</b></td>
+    <td>+36 28 561 020</td>
+  </tr>
+  <tr>
+    <td><b>Fax</b></td>
+    <td>+36 28 561 025</td>
+  </tr>
+  <tr>
+    <td><b>Email</b></td>
+    <td>
+      <img class="noborder" src="img/contact1.png"></img>
+      <img class="noborder" src="img/contact2.png"></img>
+    </td>
+  </tr>
+</table>
+<br/>
+<small>
+  <a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=2144+Kerepes,+Szabads%C3%A1g+%C3%BAt+252.&amp;sll=47.555445,19.304523&amp;sspn=0.076114,0.181789&amp;ie=UTF8&amp;hq=&amp;hnear=2144+Kerepes,+Szabads%C3%A1g+%C3%BAtja+252,+Hungary&amp;ll=47.565078,19.291002&amp;spn=0.002378,0.005681&amp;t=h&amp;z=14">Show in full size</a>
+</small>
+<iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+        src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=2144+Kerepes,+Szabads%C3%A1g+%C3%BAt+252.&amp;sll=47.555445,19.304523&amp;sspn=0.076114,0.181789&amp;ie=UTF8&amp;hq=&amp;hnear=2144+Kerepes,+Szabads%C3%A1g+%C3%BAtja+252,+Hungary&amp;ll=47.565078,19.291002&amp;spn=0.002378,0.005681&amp;t=h&amp;z=14&amp;output=embed">
+</iframe>
