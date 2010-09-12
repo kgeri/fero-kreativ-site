@@ -1,5 +1,6 @@
 ---
 title: Contacts
+routed_title: Contacts
 in_menu: true
 ---
 <table>
