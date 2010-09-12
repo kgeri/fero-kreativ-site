@@ -69,18 +69,18 @@ img {border: none; }
 .nav2 ul li ul {display:none; border:none;}
 
 /*Non-IE6 hovering*/
-.nav2 ul li:hover a {background-color:rgb(210,210,210); text-decoration:none;} /*Color main cells hovering mode*/
+.nav2 ul li:hover a {background-color:rgb(5,4,194); color: rgb(255,255,255); text-decoration:none;} /*Color main cells hovering mode*/
 .nav2 ul li:hover ul {display:block; width:10.0em; position:absolute; z-index:999; top:3.0em; margin-top:0.1em; left:0;}
 .nav2 ul li:hover ul li a {display:block; width:10.0em; height:auto; line-height:1.3em; margin-left:-1px; padding:4px 16px 4px 16px; border-left:solid 1px rgb(175,175,175); border-bottom: solid 1px rgb(175,175,175); background-color:rgb(237,237,237); font-weight:normal; color:rgb(50,50,50);} /*Color subcells normal mode*/
-.nav2 ul li:hover ul li a:hover {background-color:rgb(210,210,210); text-decoration:none;} /*Color subcells hovering mode*/
+.nav2 ul li:hover ul li a:hover {background-color:rgb(5,4,194); color: rgb(255,255,255); text-decoration:none;} /*Color subcells hovering mode*/
 .nav2 ul li:hover ul li span {display:block; width:10.0em; height:auto; line-height:1.3em; margin-left:-1px; padding:4px 16px 4px 16px; border-left:solid 1px rgb(175,175,175); border-bottom: solid 1px rgb(175,175,175); background-color:rgb(210,210,210); font-weight:normal; color:rgb(50,50,50);} /*Color subcells normal mode*/
 
 /*IE6 hovering*/
 .nav2 table {position:absolute; top:0; left:0; border-collapse:collapse;}
-.nav2 ul li a:hover {background-color:rgb(210,210,210); text-decoration:none;} /*Color main cells hovering mode*/
+.nav2 ul li a:hover {background-color:rgb(5,4,194); color: rgb(255,255,255); text-decoration:none;} /*Color main cells hovering mode*/
 .nav2 ul li a:hover ul {display:block; width:10.0em; position:absolute; z-index:999; top:3.1em; t\op:3.0em; left:0; marg\in-top:0.1em;}
 .nav2 ul li a:hover ul li a {display:block; w\idth:10.0em; height:1px; line-height:1.3em; padding:4px 16px 4px 16px; border-left:solid 1px rgb(175,175,175); border-bottom: solid 1px rgb(175,175,175); background-color:rgb(237,237,237); font-weight:normal; color:rgb(50,50,50);} /*Color subcells normal mode*/
-.nav2 ul li a:hover ul li a:hover {background-color:rgb(210,210,210); text-decoration:none;} /*Color subcells hovering mode*/
+.nav2 ul li a:hover ul li a:hover {background-color:rgb(5,4,194); color: rgb(255,255,255); text-decoration:none;} /*Color subcells hovering mode*/
 .nav2 ul li a:hover ul li span {display:block; w\idth:10.0em; height:1px; line-height:1.3em; padding:4px 16px 4px 16px; border-left:solid 1px rgb(175,175,175); border-bottom: solid 1px rgb(175,175,175); background-color:rgb(237,237,237); font-weight:normal; color:rgb(50,50,50);} /*Color subcells normal mode*/
 
 .header-breadcrumbs ul {float:left; width:560px; list-style:none; padding:0 0 0 15px; font-family:verdana,arial,sans-serif;}

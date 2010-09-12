@@ -56,11 +56,11 @@
     <div class="main">
  
       <!-- B.1 MAIN NAVIGATION -->
-      <% if context.node.acn.match(/^\/products/) %>
+      <% if context.node.acn.match(/^\/02_products/) %>
         <div class="main-navigation">
   
           <!-- Navigation Level 3 -->
-          <h1 class="first">Termékeink</h1>
+          <h1 class="first">Termékek</h1>
   
           <!-- Navigation with grid style -->
           <div class="nav3-grid">

@@ -49,7 +49,7 @@
 .nav3-grid {width:199px; border-bottom:solid 1px rgb(200,200,200); }
 .nav3-grid ul , .nav3-grid ul li {background: none; list-style-type: none; margin: 0px; padding: 0px; border-top: solid 1px rgb(200,200,200); }
 .nav3-grid li a, .nav3-grid li span {display:block; min-height:2.0em /*Non-IE6*/; height:auto !important; height:2.0em /*IE6*/; line-height:2.0em; padding:0px 10px 0px 20px; color:rgb(70,122,167); font-weight: normal}
-.nav3-grid li a:hover, .nav3-grid li span:hover {background-color:rgb(225,225,225); color:rgb(42,90,138); text-decoration:none;}
+.nav3-grid li a:hover, .nav3-grid li span:hover {background-color:rgb(5,4,194); color:rgb(255,255,255); text-decoration:none;}
 .nav3-grid .webgen-menu-level1 a, .nav3-grid .webgen-menu-level1 span {padding-left: 10px}
 .nav3-grid .webgen-menu-level2 a, .nav3-grid .webgen-menu-level2 span {padding-left: 20px}
 .nav3-grid .webgen-menu-level3 a, .nav3-grid .webgen-menu-level3 span {padding-left: 30px}
@@ -58,8 +58,8 @@
 .nav3-grid .webgen-menu-level2 a, .nav3-grid .webgen-menu-level2 span {font-weight:bold; font-size:100%;}
 .nav3-grid .webgen-menu-level3 a, .nav3-grid .webgen-menu-level3 span {font-weight:normal; font-size:80%;}
 .nav3-grid .webgen-menu-level4 a, .nav3-grid .webgen-menu-level4 span {font-weight:normal; font-size:70%;}
-.nav3-grid li span {background-color:rgb(225,225,225);}
-.nav3-grid .webgen-menu-item-selected * {background-color:rgb(225,225,225);}
+.nav3-grid li span {background-color:rgb(5,4,194); color: rgb(255,255,255);}
+.nav3-grid .webgen-menu-item-selected * {background-color:rgb(5,4,194); color: rgb(255,255,255);}
 
 /* MAIN CONTENT */
 .main-content h1.pagetitle {margin:0 0 0.4em 0; padding:0 0 2px 0; border-bottom:solid 7px rgb(225,225,225); font-family:"trebuchet ms",arial,sans-serif; color:rgb(100,100,100); font-weight:bold; font-size:220%;}
