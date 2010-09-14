@@ -22,8 +22,8 @@ in_menu: true
   <tr>
     <td><b>Email</b></td>
     <td>
-      <img class="noborder" src="img/contact1.png"></img>
-      <img class="noborder" src="img/contact2.png"></img>
+      <img class="noborder" src="{relocatable: /img/contact1.png}"></img>
+      <img class="noborder" src="{relocatable: /img/contact2.png}"></img>
     </td>
   </tr>
 </table>
